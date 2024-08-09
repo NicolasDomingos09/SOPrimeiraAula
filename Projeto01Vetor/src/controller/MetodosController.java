@@ -12,6 +12,6 @@ public class MetodosController {
 		double tempoFinal = System.nanoTime();
 		double tempoTotal = tempoFinal - tempoInicial;
 		tempoTotal /= Math.pow(10,9);
-		System.out.println("Tempo para percorrer: " + tempoTotal + "s.");
+		System.out.println(tempoTotal + "s.");
 	}
 }
